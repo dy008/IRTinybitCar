@@ -1,0 +1,32 @@
+{
+    "name": "红外小车自动避障",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Tinybit": "github:lzty634158/tiny-bit#13cdc8eee33fed7244ba2394a71b23130453810e",
+        "Tinybit_IR": "github:lzty634158/tinybit_ir#ab8739a9db165e770fe7cc70d747fd6f38487a67"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.61",
+        "tag": "v3.0.61",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9ff91acb8524c6a52fee90cf7194a4643c424363",
+        "target": "4.0.18",
+        "pxt": "6.0.35",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
